@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
-  def root
+  def register
+    render json: {test: banana}
   end
 end

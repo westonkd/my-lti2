@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  lti_assignment_id: MyString
+  hide_score: false
+
+two:
+  lti_assignment_id: MyString
+  hide_score: false
