@@ -1,2 +1,1 @@
-# My LTI
-Simple tool to help me learn LTI standards
+# LTI 2.0 Sample Tool
