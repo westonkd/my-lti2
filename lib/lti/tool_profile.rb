@@ -23,7 +23,7 @@ module Lti
 
     def tool_proxy_endpoint_id
       tp_services = @data[:service_offered].select { |s| s['@id'].include? 'ToolProxy.collection' }
-      return URI.parse(tp_services.first['@id']) unless tp_services.blank?
+      return tp_services.first['@id'] unless tp_services.blank?
     end
 
     private
