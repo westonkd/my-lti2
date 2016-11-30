@@ -1,3 +1,37 @@
+<%= stylesheet_link_tag params[:controller] %>
 <div class="col-xs-12">
-  <h1>hello there</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Plagiarism Detection</h1>
+      </div>
+    </div>
+    <form action="<%= @save_capabilities_url %>" method="post">
+    <% if assignment_config? %>
+        <input type="hidden" value="true" name="placements[Canvas.placements.assignmentConfiguration][enabled]">
+        <div class="form-group">
+          <label for="originality-score">Originality Score</label>
+          <input type="text" name="not_sure">
+          <p class="description">Leave blank if you want a random originality score to be used for each submission.</p>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+    <% else %>
+      <div>
+        <h2>
+          No Assignment Configuration
+        </h2>
+        <p>
+          This tool requires the Assignment Configuration capability
+          (<code>Canvas.placements.assignmentConfiguration</code>)
+          which was not found.
+        </p>
+        <div class="form-group">
+          <button type="submit" class="btn btn-default">OK</button>
+        </div>
+      </div>
+    <% end %>
+    </form>
+  </div>
 </div>
