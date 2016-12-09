@@ -10577,3 +10577,2408 @@ Processing by MessagesController#register as HTML
 Can't verify CSRF token authenticity
   Rendered messages/register.erb within layouts/application (0.3ms)
 Completed 200 OK in 319ms (Views: 186.7ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 14:42:33 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 769ms (Views: 760.6ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 15:05:25 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 558ms (Views: 551.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:06:48 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"424bc004-01b6-4e08-a2a2-074a4fc6bb9e", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/424bc004-01b6-4e08-a2a2-074a4fc6bb9e", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 14ms
+
+NameError (uninitialized constant MessagesController::Lti):
+  app/controllers/messages_controller.rb:5:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.3ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 15:08:14 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 470ms (Views: 462.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:08:20 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (uninitialized constant Lti):
+  app/controllers/messages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.5ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (43.4ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 15:10:50 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 445ms (Views: 438.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:11:07 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (uninitialized constant Lti):
+  app/controllers/messages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.4ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.6ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 15:11:49 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 518ms (Views: 511.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:12:00 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (uninitialized constant MessagesController::Lti):
+  app/controllers/messages_controller.rb:2:in `<class:MessagesController>'
+  app/controllers/messages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.0ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.5ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 15:13:44 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 472ms (Views: 465.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:13:51 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+LoadError (cannot load such file -- lib/lti/tool_profile):
+  app/controllers/messages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.9ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 15:15:02 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 457ms (Views: 449.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:15:10 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+LoadError (cannot load such file -- lib/lti/tool_profile):
+  app/controllers/messages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.6ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 15:16:32 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 466ms (Views: 458.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:16:38 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/usr/src/app/lib/lti/tool_profile.rb:4: class/module name must be CONSTANT):
+  lib/lti/tool_profile.rb:4: class/module name must be CONSTANT
+  app/controllers/messages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.4ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 15:17:16 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 447ms (Views: 440.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:17:21 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+TypeError (wrong argument type Class (expected Module)):
+  app/controllers/messages_controller.rb:4:in `include'
+  app/controllers/messages_controller.rb:4:in `<class:MessagesController>'
+  app/controllers/messages_controller.rb:3:in `<top (required)>'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.3ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 15:17:58 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 459ms (Views: 451.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:18:00 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"97d2d0ff-9cff-4801-938e-01496627bc91", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/97d2d0ff-9cff-4801-938e-01496627bc91", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 10ms
+
+NameError (undefined local variable or method `strong_params' for #<MessagesController:0x00000005692d78>):
+  app/controllers/messages_controller.rb:7:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.2ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 15:20:40 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 445ms (Views: 438.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:20:47 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"dd958dce-f0c0-4644-b12c-c4a72086dfc5", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/dd958dce-f0c0-4644-b12c-c4a72086dfc5", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (0.9ms)
+Completed 200 OK in 365ms (Views: 191.8ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 15:21:30 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 421ms (Views: 413.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:21:45 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"d35b0229-7019-4593-a998-c710e8d5918a", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/d35b0229-7019-4593-a998-c710e8d5918a", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (1.6ms)
+Completed 200 OK in 1969ms (Views: 273.9ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 15:23:57 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 809ms (Views: 801.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:24:00 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"cc70c78d-a8f3-4e98-8988-0dd774023151", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/cc70c78d-a8f3-4e98-8988-0dd774023151", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (8.9ms)
+Completed 200 OK in 274ms (Views: 177.8ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 15:25:31 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 524ms (Views: 516.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:25:37 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"66c7b7a0-d111-428f-96ca-8a3c7f34fcb9", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/66c7b7a0-d111-428f-96ca-8a3c7f34fcb9", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (1.1ms)
+Completed 200 OK in 266ms (Views: 168.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:37:39 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"781f1dae-d93a-43e2-80c1-ba7755ebb841", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/781f1dae-d93a-43e2-80c1-ba7755ebb841", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (9.3ms)
+Completed 500 Internal Server Error in 323ms
+
+ActionView::Template::Error (undefined method `placmenents' for #<Lti::ToolProfile:0x007f33c6118e00>):
+    4:     <%= @tc_profile.url %>
+    5:   </h2>
+    6:   <p>
+    7:     <%= @tc_profile.placmenents %>
+    8:   </p>
+    9:   <p>
+   10:     <%= @tc_profile.data %>
+  app/views/messages/register.erb:7:in `_app_views_messages_register_erb___2491286903325816013_69930171589520'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.2ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:38:43 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"cc73b1c3-3b02-4623-bb29-ba078c93967c", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/cc73b1c3-3b02-4623-bb29-ba078c93967c", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 319ms
+
+ActionView::Template::Error (undefined method `placmenents' for #<Lti::ToolProfile:0x007f33c4ecc580>):
+    4:     <%= @tc_profile.url %>
+    5:   </h2>
+    6:   <p>
+    7:     <%= @tc_profile.placmenents %>
+    8:   </p>
+    9:   <p>
+   10:     <%= @tc_profile.data %>
+  app/views/messages/register.erb:7:in `_app_views_messages_register_erb___2491286903325816013_69930171589520'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.4ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:41:12 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"23ada27a-4869-4eac-8a9b-c17b5a3f3dec", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/23ada27a-4869-4eac-8a9b-c17b5a3f3dec", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 320ms
+
+ActionView::Template::Error (undefined method `placements' for #<Lti::ToolProfile:0x007f33c5181960>):
+    4:     <%= @tc_profile.url %>
+    5:   </h2>
+    6:   <p>
+    7:     <%= @tc_profile.placements %>
+    8:   </p>
+    9:   <p>
+   10:     <%= @tc_profile.data %>
+  app/views/messages/register.erb:7:in `_app_views_messages_register_erb___2491286903325816013_69930163091460'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.2ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:42:13 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"86d80fca-b9c7-40b5-86d6-b64c8997b7c6", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/86d80fca-b9c7-40b5-86d6-b64c8997b7c6", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 333ms
+
+ActionView::Template::Error (undefined method `placements' for #<Lti::ToolProfile:0x007f33c5fefc40>):
+    4:     <%= @tc_profile.url %>
+    5:   </h2>
+    6:   <p>
+    7:     <%= @tc_profile.placements %>
+    8:   </p>
+    9:   <p>
+   10:     <%= @tc_profile.data %>
+  app/views/messages/register.erb:7:in `_app_views_messages_register_erb___2491286903325816013_69930163091460'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.1ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:43:55 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"330b3f37-cff3-4ba8-90bf-2ac76d551b7b", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/330b3f37-cff3-4ba8-90bf-2ac76d551b7b", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 320ms
+
+ActionView::Template::Error (undefined method `placements' for #<Lti::ToolProfile:0x00000005b4a7a8>):
+    4:     <%= @tc_profile.url %>
+    5:   </h2>
+    6:   <p>
+    7:     <%= @tc_profile.placements %>
+    8:   </p>
+    9:   <p>
+   10:     <%= @tc_profile.data %>
+  app/views/messages/register.erb:7:in `_app_views_messages_register_erb___2491286903325816013_69930163091460'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.1ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 15:44:30 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 483ms (Views: 475.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:44:37 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"1960eafc-2f02-4cd2-affa-69193ea539e5", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/1960eafc-2f02-4cd2-affa-69193ea539e5", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (1.9ms)
+Completed 200 OK in 515ms (Views: 185.4ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 15:47:02 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 687ms (Views: 679.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:47:05 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"5bf8cf39-f0ba-42e8-a2d9-90067e0fd729", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/5bf8cf39-f0ba-42e8-a2d9-90067e0fd729", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (10.3ms)
+Completed 500 Internal Server Error in 123ms
+
+ActionView::Template::Error (private method `friendly_placements' called for #<Lti::ToolProfile:0x000000056917c0>):
+    4:     <%= @tc_profile.url %>
+    5:   </h2>
+    6:   <p>
+    7:     <%= @tc_profile.friendly_placements %>
+    8:   </p>
+    9:   <p>
+   10:     <%= @tc_profile.placements %>
+  app/views/messages/register.erb:7:in `_app_views_messages_register_erb__1056571213902866692_45817240'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.3ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 15:47:29 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 431ms (Views: 423.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:47:32 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"5bf8cf39-f0ba-42e8-a2d9-90067e0fd729", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/5bf8cf39-f0ba-42e8-a2d9-90067e0fd729", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (5.4ms)
+Completed 200 OK in 281ms (Views: 173.9ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 15:50:39 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 440ms (Views: 432.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/messages/register" for 172.17.0.2 at 2016-11-30 15:50:40 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/messages/register"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.3ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (43.0ms)
+
+
+Started GET "/messages/register" for 172.17.0.2 at 2016-11-30 15:50:46 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/messages/register"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.5ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:51:04 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/usr/src/app/lib/lti/tool_profile.rb:15: syntax error, unexpected '.', expecting ')'
+        name_array = p.split('.').last.split(.split /(?=[A-Z])/)
+                                              ^
+/usr/src/app/lib/lti/tool_profile.rb:15: syntax error, unexpected ')', expecting keyword_end):
+  lib/lti/tool_profile.rb:15: syntax error, unexpected '.', expecting ')'
+  lib/lti/tool_profile.rb:15: syntax error, unexpected ')', expecting keyword_end
+  app/controllers/messages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 15:58:39 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 451ms (Views: 443.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:58:51 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"12159d6d-5a43-4516-ae9e-76ed8a79a7e2", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/12159d6d-5a43-4516-ae9e-76ed8a79a7e2", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (9.1ms)
+Completed 200 OK in 2223ms (Views: 176.4ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 15:59:19 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 451ms (Views: 443.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/messages/register" for 172.17.0.2 at 2016-11-30 15:59:23 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/messages/register"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.2ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.5ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 15:59:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"e026e4d4-5e90-4529-b2df-989e4a176609", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/e026e4d4-5e90-4529-b2df-989e4a176609", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (1.3ms)
+Completed 200 OK in 265ms (Views: 160.1ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 16:07:59 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 448ms (Views: 440.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 16:08:26 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"2b987918-a09c-41e1-b785-0aa9bd9f4b09", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/2b987918-a09c-41e1-b785-0aa9bd9f4b09", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 297ms
+
+NoMethodError (undefined method `placements' for nil:NilClass):
+  app/controllers/messages_controller.rb:19:in `verify_config_placement'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.9ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 16:08:53 +0000
+Processing by InfoController#home as HTML
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 16:08:53 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  Rendered info/home.html.erb within layouts/application (1.5ms)
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"2b987918-a09c-41e1-b785-0aa9bd9f4b09", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/2b987918-a09c-41e1-b785-0aa9bd9f4b09", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (1.5ms)
+Completed 200 OK in 454ms (Views: 446.6ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 576ms (Views: 462.8ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 16:09:26 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 748ms (Views: 740.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 16:09:29 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"ab7ddecf-b190-4e06-9643-31135a686c32", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/ab7ddecf-b190-4e06-9643-31135a686c32", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (0.8ms)
+Completed 200 OK in 259ms (Views: 163.2ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 16:11:37 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 775ms (Views: 767.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 16:11:39 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"541e4999-fa40-40f0-b436-23bb6eb474e9", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/541e4999-fa40-40f0-b436-23bb6eb474e9", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (7.6ms)
+Completed 200 OK in 266ms (Views: 168.0ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 16:28:45 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 451ms (Views: 443.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 16:29:06 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"edb074b3-11e6-444d-b91f-f5bb0ef136ee", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/edb074b3-11e6-444d-b91f-f5bb0ef136ee", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (7.2ms)
+Completed 200 OK in 317ms (Views: 181.3ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 16:29:53 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 511ms (Views: 503.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 16:29:53 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"6320a01b-5fb1-4704-a4a0-7d251139b620", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/6320a01b-5fb1-4704-a4a0-7d251139b620", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (1.2ms)
+Completed 200 OK in 366ms (Views: 199.8ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 16:30:37 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 581ms (Views: 573.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 16:30:45 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"817fe7bd-b8d1-431c-a027-6e15882caa7f", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/817fe7bd-b8d1-431c-a027-6e15882caa7f", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (1.1ms)
+Completed 200 OK in 282ms (Views: 173.0ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 16:31:29 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 468ms (Views: 461.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 16:31:50 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"2cff5b58-a43d-462b-b84d-099eb0015be9", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/2cff5b58-a43d-462b-b84d-099eb0015be9", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (1.2ms)
+Completed 200 OK in 288ms (Views: 180.5ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 16:33:05 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 467ms (Views: 459.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 16:33:09 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"b9a4c052-a961-44ec-a2c7-47f205d069d4", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/b9a4c052-a961-44ec-a2c7-47f205d069d4", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (1.5ms)
+Completed 200 OK in 294ms (Views: 177.1ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 16:35:23 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 508ms (Views: 500.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 16:35:30 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"f33a1e95-4b9a-4078-a230-e41a05d47f66", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/f33a1e95-4b9a-4078-a230-e41a05d47f66", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (7.6ms)
+Completed 200 OK in 291ms (Views: 183.1ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 16:38:42 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 473ms (Views: 465.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 16:38:48 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"2ea237c4-65ba-46ed-a30c-3d7ed8713a24", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/2ea237c4-65ba-46ed-a30c-3d7ed8713a24", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (20.3ms)
+Completed 500 Internal Server Error in 143ms
+
+ActionView::Template::Error (undefined method `assignment_config?' for #<#<Class:0x00000004972bc0>:0x000000049bd8f0>):
+    1: <div class="col-xs-12">
+    2:   <form action="<%= @save_capabilities_url %>" method="post">
+    3:   <% if assignment_config? %>
+    4:       <input type="hidden" value="true" name="placements[Canvas.placements.assignmentConfiguration][enabled]">
+    5:       <div class="form-group">
+    6:         <label for="originality-score">Originality Score</label>
+  app/views/messages/register.erb:3:in `_app_views_messages_register_erb___3333007746230375156_38687120'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.1ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 16:39:58 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 442ms (Views: 434.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 16:40:05 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"27fd5694-bb65-4468-a0d7-351f0a676b71", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/27fd5694-bb65-4468-a0d7-351f0a676b71", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (1.1ms)
+Completed 200 OK in 284ms (Views: 166.4ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 16:41:44 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 777ms (Views: 769.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 16:41:46 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"547f2af3-5feb-416d-b366-039a5f66d1dc", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/547f2af3-5feb-416d-b366-039a5f66d1dc", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (0.8ms)
+Completed 200 OK in 271ms (Views: 164.2ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 16:45:44 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 16:45:45 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"0a3ee6ca-b30b-4dcc-b965-9996eff51fda", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/0a3ee6ca-b30b-4dcc-b965-9996eff51fda", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+Completed 200 OK in 528ms (Views: 517.6ms | ActiveRecord: 0.0ms)
+  Rendered messages/register.erb within layouts/application (1.8ms)
+Completed 200 OK in 570ms (Views: 450.5ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 16:46:59 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 443ms (Views: 434.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 16:47:05 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"028d66f6-e796-4e49-9e41-6384ec2800c8", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/028d66f6-e796-4e49-9e41-6384ec2800c8", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (1.1ms)
+Completed 200 OK in 290ms (Views: 171.8ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 16:50:02 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 483ms (Views: 474.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 16:50:13 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"6d3ed294-2977-48bd-899b-d5078cab5977", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/6d3ed294-2977-48bd-899b-d5078cab5977", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (0.9ms)
+Completed 200 OK in 306ms (Views: 190.3ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 16:57:10 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 464ms (Views: 456.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 16:57:13 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"ddaf454d-6cd5-4bca-914d-09cc0aaec2cf", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/ddaf454d-6cd5-4bca-914d-09cc0aaec2cf", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (70.6ms)
+Completed 500 Internal Server Error in 193ms
+
+ActionView::Template::Error (Asset filtered out and will not be served: add `Rails.application.config.assets.precompile += %w( messages.css )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= stylesheet_link_tag params[:controller] %>
+    2: <div class="col-xs-12">
+    3:   <div class="container">
+    4:     <div class="row">
+  app/views/messages/register.erb:1:in `_app_views_messages_register_erb___2252924873015416626_35875660'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.2ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 16:58:14 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 692ms (Views: 683.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 16:58:17 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"5f3c97e2-a285-4022-b99a-fb98b8e6ce58", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/5f3c97e2-a285-4022-b99a-fb98b8e6ce58", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (26.1ms)
+Completed 200 OK in 290ms (Views: 169.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/messages.self-d47f7f1246e6fe4e30f0cad2e5a90ea1046ad5161753a9bc95353263a310c21e.css?body=1" for 172.17.0.2 at 2016-11-30 16:58:18 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 17:25:10 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 490ms (Views: 482.2ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 17:25:43 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 451ms (Views: 443.9ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 17:27:53 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 481ms (Views: 474.5ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 17:28:37 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 538ms (Views: 530.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 17:28:50 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"e2f1c2c5-58ae-4be6-ae33-693e5d732be0", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/e2f1c2c5-58ae-4be6-ae33-693e5d732be0", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (52.4ms)
+Completed 200 OK in 384ms (Views: 252.3ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 17:35:23 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 865ms (Views: 857.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 17:35:27 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"923c0b0f-40c3-4e96-9bcb-e7660c00c751", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/923c0b0f-40c3-4e96-9bcb-e7660c00c751", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 138ms
+
+NoMethodError (undefined method `first' for nil:NilClass):
+  lib/lti/tool_profile.rb:20:in `tool_proxy_endpoint'
+  app/controllers/messages_controller.rb:9:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.5ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 17:35:58 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 767ms (Views: 759.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 17:36:29 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"622cedd7-4d2a-403d-819b-cff7beeb2a94", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/622cedd7-4d2a-403d-819b-cff7beeb2a94", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (61.2ms)
+Completed 200 OK in 359ms (Views: 238.2ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 17:43:00 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 541ms (Views: 533.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 17:43:13 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"71b0d97c-f85b-46fa-9555-1d5ccf671eb4", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/71b0d97c-f85b-46fa-9555-1d5ccf671eb4", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 128ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  lib/lti/tool_profile.rb:21:in `tool_proxy_endpoint'
+  app/controllers/messages_controller.rb:9:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.9ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 17:44:28 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 522ms (Views: 514.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 17:44:39 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"f1516b53-1a71-4453-95b6-888cec6118fb", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/f1516b53-1a71-4453-95b6-888cec6118fb", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 125ms
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  lib/lti/tool_profile.rb:23:in `tool_proxy_endpoint'
+  app/controllers/messages_controller.rb:9:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.8ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 17:45:11 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 564ms (Views: 556.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 17:45:28 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"6958f75a-a3ca-40e0-8bab-a3fb33b97207", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/6958f75a-a3ca-40e0-8bab-a3fb33b97207", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (28.1ms)
+Completed 200 OK in 363ms (Views: 227.1ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 17:47:51 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1051ms (Views: 1040.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 17:47:54 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"7557e149-ff62-467a-b7c2-2e438aff40fb", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/7557e149-ff62-467a-b7c2-2e438aff40fb", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 174ms
+
+NoMethodError (undefined method `strip' for nil:NilClass):
+  app/controllers/messages_controller.rb:21:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.7ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 17:49:10 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 475ms (Views: 467.1ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 17:49:30 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 539ms (Views: 531.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 17:49:37 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"d5cd3dd7-ab66-45b7-b0a2-ff822a4e8d9a", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/d5cd3dd7-ab66-45b7-b0a2-ff822a4e8d9a", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 122ms
+
+NoMethodError (undefined method `strip' for nil:NilClass):
+  app/controllers/messages_controller.rb:21:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.7ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 17:50:38 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 542ms (Views: 530.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 17:50:45 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"1fda6097-2a1f-4998-a4e0-b6d801d97154", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/1fda6097-2a1f-4998-a4e0-b6d801d97154", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 278ms
+
+NoMethodError (undefined method `status' for #<HTTParty::Response:0x00000004aa26d0>):
+  app/controllers/messages_controller.rb:23:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.2ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 17:51:56 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 466ms (Views: 458.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 17:52:28 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"edca4267-7c09-413e-8a49-c81fd0e368c0", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/edca4267-7c09-413e-8a49-c81fd0e368c0", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (53.0ms)
+Completed 200 OK in 493ms (Views: 232.9ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 19:01:44 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 633ms (Views: 626.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 19:01:47 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"aa75dd0b-ec44-45bd-b8d0-a5679d076c54", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/aa75dd0b-ec44-45bd-b8d0-a5679d076c54", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 134ms
+
+NameError (undefined local variable or method `value' for #<Lti::ToolProxy:0x0000000458c628>):
+  lib/lti/tool_proxy.rb:23:in `tool_profile'
+  lib/lti/tool_proxy.rb:15:in `as_json'
+  app/controllers/messages_controller.rb:12:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.4ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 19:02:07 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 495ms (Views: 488.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 19:02:09 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"53d638b5-24bd-460f-b976-fc64a106ef75", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/53d638b5-24bd-460f-b976-fc64a106ef75", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (16.1ms)
+Completed 200 OK in 415ms (Views: 184.3ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 19:37:36 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 449ms (Views: 442.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 19:37:41 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"c780f09f-4aae-4a7b-938d-93d8de167417", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/c780f09f-4aae-4a7b-938d-93d8de167417", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 118ms
+
+Errno::ENOENT (No such file or directory @ rb_sysopen - tool_profile.json):
+  lib/lti/tool_proxy.rb:23:in `read'
+  lib/lti/tool_proxy.rb:23:in `tool_profile'
+  lib/lti/tool_proxy.rb:15:in `as_json'
+  app/controllers/messages_controller.rb:12:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.9ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 19:39:14 +0000
+Processing by InfoController#home as HTML
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 19:39:14 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"c780f09f-4aae-4a7b-938d-93d8de167417", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/c780f09f-4aae-4a7b-938d-93d8de167417", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+Completed 200 OK in 685ms (Views: 677.3ms | ActiveRecord: 0.0ms)
+  Rendered messages/register.erb within layouts/application (127.9ms)
+Completed 200 OK in 2574ms (Views: 433.5ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 19:43:02 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 494ms (Views: 485.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 19:43:06 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"c8f9c119-a8ad-40d8-9838-f4e3e94a086d", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/c8f9c119-a8ad-40d8-9838-f4e3e94a086d", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (20.0ms)
+Completed 200 OK in 325ms (Views: 182.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 19:53:36 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"26fc5131-dc8f-4bcd-9941-2e337498931f", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/26fc5131-dc8f-4bcd-9941-2e337498931f", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (29.0ms)
+Completed 200 OK in 557ms (Views: 232.7ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 19:53:57 +0000
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 19:53:57 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"081ea824-043d-4ff5-8407-669e1236f00a", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/081ea824-043d-4ff5-8407-669e1236f00a", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (117.0ms)
+Completed 200 OK in 491ms (Views: 483.7ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 513ms (Views: 404.7ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 19:55:45 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 409ms (Views: 401.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 19:55:55 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"c08ec2ea-af4d-4ad1-b2a2-db7a2b52d596", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/c08ec2ea-af4d-4ad1-b2a2-db7a2b52d596", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (16.3ms)
+Completed 200 OK in 305ms (Views: 174.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 19:57:41 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"a73476eb-3e03-41db-ab18-73d75cbc46d0", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/a73476eb-3e03-41db-ab18-73d75cbc46d0", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (30.9ms)
+Completed 200 OK in 364ms (Views: 239.2ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 19:58:23 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 19:58:24 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Completed 200 OK in 511ms (Views: 503.8ms | ActiveRecord: 0.0ms)
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"c1c65df1-2310-4649-a2ab-23ed6313122c", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/c1c65df1-2310-4649-a2ab-23ed6313122c", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (111.8ms)
+Completed 200 OK in 520ms (Views: 414.2ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 20:03:37 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 812ms (Views: 803.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 20:03:44 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"9d4bf12f-1c1f-4412-95da-e8df542c83d3", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/9d4bf12f-1c1f-4412-95da-e8df542c83d3", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (18.2ms)
+Completed 200 OK in 318ms (Views: 186.0ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 20:10:07 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 498ms (Views: 488.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 20:10:32 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"2396f6f4-fd11-453d-a0e3-6674ad19ffe8", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/2396f6f4-fd11-453d-a0e3-6674ad19ffe8", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (50.8ms)
+Completed 200 OK in 343ms (Views: 219.2ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 20:21:16 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 482ms (Views: 475.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 20:22:02 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"4eb12956-3c4e-40e9-b76f-4f6fdb81fb65", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/4eb12956-3c4e-40e9-b76f-4f6fdb81fb65", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (52.1ms)
+Completed 200 OK in 350ms (Views: 221.1ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 20:29:04 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 490ms (Views: 482.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 20:29:11 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"e6315479-2771-4333-abd0-b4e17c54079a", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/e6315479-2771-4333-abd0-b4e17c54079a", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (24.3ms)
+Completed 200 OK in 315ms (Views: 200.5ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-11-30 20:37:10 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 492ms (Views: 484.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-11-30 20:39:18 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"0682b5f0-e958-4360-9cb5-b308aa2894e1", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/0682b5f0-e958-4360-9cb5-b308aa2894e1", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (56.3ms)
+Completed 200 OK in 427ms (Views: 306.9ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-02 13:07:49 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 854ms (Views: 846.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-02 13:10:42 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"5593591d-dc62-4def-8737-c59d461cdae2", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/5593591d-dc62-4def-8737-c59d461cdae2", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (58.2ms)
+Completed 200 OK in 443ms (Views: 311.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d6ef859606367bf90e37b61bf8bddc0bb91946f66605bf2aa3ed16305b108815.css?body=1" for 172.17.0.2 at 2016-12-02 13:10:42 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:42 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:42 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:42 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:42 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:42 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:42 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:42 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:42 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:42 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/messages.self-d47f7f1246e6fe4e30f0cad2e5a90ea1046ad5161753a9bc95353263a310c21e.css?body=1" for 172.17.0.2 at 2016-12-02 13:10:42 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:42 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:42 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:42 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:42 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:42 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:43 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/config.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:43 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:43 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/info.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:43 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f98a0dd27ad1c55b2b9cfe97296d4887e5d4a4535b3bbbf9130c1050771738b2.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:43 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 172.17.0.2 at 2016-12-02 13:10:43 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-02 13:11:18 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"placements"=>{"Canvas.placements.assignmentConfiguration"=>{"enabled"=>"true"}}, "not_sure"=>""}
+Can't verify CSRF token authenticity
+Completed 400 Bad Request in 1ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: tc_profile_url):
+  app/controllers/messages_controller.rb:36:in `tool_consumer_profile'
+  app/controllers/messages_controller.rb:8:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.2ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-02 13:11:59 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 456ms (Views: 448.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-02 13:12:05 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"74702035-8dbf-4e0b-b494-07ec67626cd6", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/74702035-8dbf-4e0b-b494-07ec67626cd6", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (20.6ms)
+Completed 200 OK in 296ms (Views: 175.2ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-02 13:15:56 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 523ms (Views: 514.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-02 13:16:05 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"dac32797-f2e3-4122-b802-5c9a9920f958", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/dac32797-f2e3-4122-b802-5c9a9920f958", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (19.3ms)
+Completed 200 OK in 953ms (Views: 179.9ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-02 13:16:57 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 460ms (Views: 452.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-02 13:17:38 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"56fe2019-19ab-40c5-9bcd-9463c04e5876", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/56fe2019-19ab-40c5-9bcd-9463c04e5876", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (32.0ms)
+Completed 200 OK in 957ms (Views: 197.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-02 13:21:31 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"baa87447-5da3-451d-ae69-f53c41ca9f20", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/baa87447-5da3-451d-ae69-f53c41ca9f20", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (29.2ms)
+Completed 200 OK in 924ms (Views: 238.7ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-02 13:32:09 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 439ms (Views: 430.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-02 13:32:16 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"fcefa5eb-9744-43b5-a3ac-aa1f34fb4c6b", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/fcefa5eb-9744-43b5-a3ac-aa1f34fb4c6b", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 584ms
+
+NoMethodError (undefined method `strip' for {"oauth_consumer_key"=>"fcefa5eb-9744-43b5-a3ac-aa1f34fb4c6b"}:Hash):
+  app/controllers/messages_controller.rb:13:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.8ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-02 13:36:39 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 456ms (Views: 447.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-02 13:36:48 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/usr/src/app/app/controllers/messages_controller.rb:26: syntax error, unexpected '\n', expecting =>
+/usr/src/app/app/controllers/messages_controller.rb:28: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/messages_controller.rb:26: syntax error, unexpected '\n', expecting =>
+  app/controllers/messages_controller.rb:28: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.6ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-02 13:37:18 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 525ms (Views: 517.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-02 13:37:19 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/usr/src/app/app/controllers/messages_controller.rb:26: syntax error, unexpected '\n', expecting =>
+/usr/src/app/app/controllers/messages_controller.rb:28: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/messages_controller.rb:26: syntax error, unexpected '\n', expecting =>
+  app/controllers/messages_controller.rb:28: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.1ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-02 13:37:52 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 442ms (Views: 434.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-02 13:38:04 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+SyntaxError (/usr/src/app/app/controllers/messages_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+      callback: 'about:blank'
+              ^
+/usr/src/app/app/controllers/messages_controller.rb:28: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/messages_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/messages_controller.rb:28: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.8ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-02 13:38:23 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 429ms (Views: 421.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-02 13:38:27 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"bc3a53e6-b4ff-44a7-be08-648b23ac29f5", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/bc3a53e6-b4ff-44a7-be08-648b23ac29f5", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 511ms
+
+NoMethodError (undefined method `to_string' for #<SimpleOAuth::Header:0x000000045a8b48>):
+  app/controllers/messages_controller.rb:38:in `tool_proxy_post'
+  app/controllers/messages_controller.rb:13:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.3ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-02 13:38:45 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 447ms (Views: 440.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-02 13:38:56 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"3fd181f8-5424-413b-abcc-7fa9179c5bc2", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/3fd181f8-5424-413b-abcc-7fa9179c5bc2", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 130ms
+
+NameError (undefined local variable or method `oauth_data' for #<MessagesController:0x00000003bd82f8>):
+  app/controllers/messages_controller.rb:45:in `tool_proxy_post'
+  app/controllers/messages_controller.rb:13:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.2ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-02 13:40:49 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 464ms (Views: 455.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-02 13:41:07 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"a0b34deb-a61a-491a-ba76-2c8d48c2f144", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/a0b34deb-a61a-491a-ba76-2c8d48c2f144", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 530ms
+
+NameError (undefined local variable or method `oauth_data' for #<MessagesController:0x0000000259f4c8>):
+  app/controllers/messages_controller.rb:45:in `tool_proxy_post'
+  app/controllers/messages_controller.rb:13:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.8ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-02 13:42:03 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 484ms (Views: 476.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-02 13:42:12 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"f4bfb0a8-3344-43c9-9cce-c71e295d5008", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/f4bfb0a8-3344-43c9-9cce-c71e295d5008", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 124ms
+
+NoMethodError (undefined method `strip' for #<SimpleOAuth::Header:0x0000000509bd20>):
+  app/controllers/messages_controller.rb:13:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.9ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-02 13:44:50 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 438ms (Views: 431.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-02 13:45:52 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"bade1665-7a90-4f93-b5c5-dacc398d4ab9", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/bade1665-7a90-4f93-b5c5-dacc398d4ab9", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 134ms
+
+NoMethodError (undefined method `strip' for #<SimpleOAuth::Header:0x000000046aacf8>):
+  app/controllers/messages_controller.rb:13:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-02 13:47:06 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 491ms (Views: 483.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-02 13:47:12 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"0a003658-36a8-4e4c-9bce-ce77d98675ff", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/0a003658-36a8-4e4c-9bce-ce77d98675ff", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (17.4ms)
+Completed 200 OK in 604ms (Views: 182.7ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-02 13:49:05 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 445ms (Views: 438.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-02 13:49:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"671320f2-2d35-4193-ac73-9bd3a9fbf7ea", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/671320f2-2d35-4193-ac73-9bd3a9fbf7ea", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (21.2ms)
+Completed 200 OK in 435ms (Views: 188.2ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-02 13:52:30 +0000
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 457ms (Views: 450.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-02 13:52:45 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"c4c22af8-732f-4ea5-975b-893f241072c3", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/c4c22af8-732f-4ea5-975b-893f241072c3", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (18.7ms)
+Completed 200 OK in 894ms (Views: 186.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-02 13:53:52 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"c1b3a694-e2f8-4eae-a392-bcad364d47c9", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/c1b3a694-e2f8-4eae-a392-bcad364d47c9", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  Rendered messages/register.erb within layouts/application (28.2ms)
+Completed 200 OK in 838ms (Views: 228.8ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (6.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateOAuthNonces (20161209144832)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (6.3ms)[0m  [1mCREATE TABLE "o_auth_nonces" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nonce" varchar NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (5.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161209144832"]]
+  [1m[36m (11.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (6.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (19.7ms)[0m  INSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)  [["nonce", "fc2bfb1abc5d8de9b46baed9a897304c"], ["created_at", "2016-12-09 14:54:07.072598"], ["updated_at", "2016-12-09 14:54:07.072598"]]
+  [1m[36m (25.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mOAuthNonce Load (20.7ms)[0m  SELECT  "o_auth_nonces".* FROM "o_auth_nonces"  ORDER BY "o_auth_nonces"."id" DESC LIMIT 1
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-09 14:58:15 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 682ms (Views: 674.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/messages/register" for 172.17.0.2 at 2016-12-09 14:58:24 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/messages/register"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/lib/ruby/vendor_ruby/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.3ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (50.8ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 14:58:33 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"437194cf-eeb9-45b7-8e6c-1d3541d24f6c", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/437194cf-eeb9-45b7-8e6c-1d3541d24f6c", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.0ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "879726f1578a018096069132f018382c"], ["created_at", "2016-12-09 14:58:33.566364"], ["updated_at", "2016-12-09 14:58:33.566364"]]
+  [1m[35m (4.6ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)  [["nonce", "4835fa5fd5aefec5e3bce4f5f2a31e87"], ["created_at", "2016-12-09 14:58:33.736658"], ["updated_at", "2016-12-09 14:58:33.736658"]]
+  [1m[36m (3.7ms)[0m  [1mcommit transaction[0m
+  Rendered messages/register.erb within layouts/application (22.3ms)
+Completed 200 OK in 560ms (Views: 202.0ms | ActiveRecord: 22.3ms)
+
+
+Started GET "/assets/application.self-d6ef859606367bf90e37b61bf8bddc0bb91946f66605bf2aa3ed16305b108815.css?body=1" for 172.17.0.2 at 2016-12-09 14:58:33 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/messages.self-d47f7f1246e6fe4e30f0cad2e5a90ea1046ad5161753a9bc95353263a310c21e.css?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/config.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/info.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (21.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/application.self-f98a0dd27ad1c55b2b9cfe97296d4887e5d4a4535b3bbbf9130c1050771738b2.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 172.17.0.2 at 2016-12-09 14:58:34 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (2.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-09 14:59:31 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 475ms (Views: 468.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 14:59:36 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"a696c64b-3959-4201-8700-fe0ab00b8695", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/a696c64b-3959-4201-8700-fe0ab00b8695", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.3ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "cc4c617138d98e0ae8b5b71a69327494"], ["created_at", "2016-12-09 14:59:36.748999"], ["updated_at", "2016-12-09 14:59:36.748999"]]
+  [1m[35m (4.0ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (19.2ms)[0m  INSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)  [["nonce", "cf0b43034bc99428623b3a7def555176"], ["created_at", "2016-12-09 14:59:36.916084"], ["updated_at", "2016-12-09 14:59:36.916084"]]
+  [1m[36m (4.8ms)[0m  [1mcommit transaction[0m
+  Rendered messages/register.erb within layouts/application (33.8ms)
+Completed 200 OK in 562ms (Views: 201.4ms | ActiveRecord: 39.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-09 15:00:58 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 455ms (Views: 448.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 15:01:04 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"0592b4fe-aad1-4cb9-b6ca-a0eca6dc5dcd", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/0592b4fe-aad1-4cb9-b6ca-a0eca6dc5dcd", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.4ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "3d1e6915c883588a88c792d8761f9c5c"], ["created_at", "2016-12-09 15:01:04.584667"], ["updated_at", "2016-12-09 15:01:04.584667"]]
+  [1m[35m (4.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.5ms)[0m  INSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)  [["nonce", "0f47a04cb626176cddb50475fcd2a8d7"], ["created_at", "2016-12-09 15:01:04.713225"], ["updated_at", "2016-12-09 15:01:04.713225"]]
+  [1m[36m (5.1ms)[0m  [1mcommit transaction[0m
+  Rendered messages/register.erb within layouts/application (39.7ms)
+Completed 200 OK in 487ms (Views: 205.2ms | ActiveRecord: 24.1ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-09 15:02:29 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (3.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1057ms (Views: 1049.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 15:02:31 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"c963b2cd-e46d-4c00-8244-bd6baccb4878", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/c963b2cd-e46d-4c00-8244-bd6baccb4878", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.1ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "771f2e6ffae56c1872a6da7e60831e66"], ["created_at", "2016-12-09 15:02:32.010490"], ["updated_at", "2016-12-09 15:02:32.010490"]]
+  [1m[35m (5.3ms)[0m  commit transaction
+  Rendered messages/register.erb within layouts/application (18.9ms)
+Completed 200 OK in 548ms (Views: 188.2ms | ActiveRecord: 19.6ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-09 15:08:41 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 460ms (Views: 453.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 15:08:55 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"d0f289a9-a2cc-42f3-96cb-0805c8bdddce", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/d0f289a9-a2cc-42f3-96cb-0805c8bdddce", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (44.9ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "8b5624bb8db7447877016b20a8306126"], ["created_at", "2016-12-09 15:08:55.656692"], ["updated_at", "2016-12-09 15:08:55.656692"]]
+  [1m[35m (10.2ms)[0m  commit transaction
+Completed 500 Internal Server Error in 529ms
+
+NoMethodError (undefined method `headers' for #<HTTParty::Request:0x007fdcd07dc788>):
+  app/controllers/messages_controller.rb:15:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.6ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-09 15:09:43 +0000
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 15:09:43 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (4.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.7ms)
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"a7bcbc38-3300-4daf-bfd1-af6eebb56e23", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/a7bcbc38-3300-4daf-bfd1-af6eebb56e23", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (6.7ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "bb9f944884d86a1375d3ca95308d232c"], ["created_at", "2016-12-09 15:09:43.386320"], ["updated_at", "2016-12-09 15:09:43.386320"]]
+  [1m[35m (4.9ms)[0m  commit transaction
+  Rendered messages/register.erb within layouts/application (113.6ms)
+Completed 200 OK in 728ms (Views: 721.2ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 800ms (Views: 477.5ms | ActiveRecord: 20.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-09 15:10:46 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 509ms (Views: 501.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 15:10:56 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"44e8c84b-81f7-43e0-bd74-7f47751b424d", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/44e8c84b-81f7-43e0-bd74-7f47751b424d", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "7679be641c9c0c9a772b7646a84a5e6c"], ["created_at", "2016-12-09 15:10:56.644491"], ["updated_at", "2016-12-09 15:10:56.644491"]]
+  [1m[35m (3.1ms)[0m  commit transaction
+  Rendered messages/register.erb within layouts/application (21.3ms)
+Completed 200 OK in 638ms (Views: 311.7ms | ActiveRecord: 13.7ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-09 15:24:33 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 511ms (Views: 504.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 15:24:40 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"7d3038cc-1605-45d1-881d-59cb19827b70", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/7d3038cc-1605-45d1-881d-59cb19827b70", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.2ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "3a1ef06e9002a97889449c60dfb17cdf"], ["created_at", "2016-12-09 15:24:40.357177"], ["updated_at", "2016-12-09 15:24:40.357177"]]
+  [1m[35m (5.1ms)[0m  commit transaction
+Completed 500 Internal Server Error in 159ms
+
+NoMethodError (private method `signature_base' called for #<SimpleOAuth::Header:0x00000005b2b470>):
+  app/controllers/messages_controller.rb:43:in `tool_proxy_post'
+  app/controllers/messages_controller.rb:13:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.5ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-09 15:25:56 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (3.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1477ms (Views: 1469.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 15:25:59 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"b2af677e-f4c3-4622-b429-bf9e1a48cd35", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/b2af677e-f4c3-4622-b429-bf9e1a48cd35", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.2ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "ccdac4c524a2497dd09fb0f598f426cb"], ["created_at", "2016-12-09 15:25:59.917460"], ["updated_at", "2016-12-09 15:25:59.917460"]]
+  [1m[35m (4.8ms)[0m  commit transaction
+  Rendered messages/register.erb within layouts/application (45.5ms)
+Completed 200 OK in 470ms (Views: 195.5ms | ActiveRecord: 13.6ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 15:30:38 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"3a3e8220-0819-4de3-bb25-dd8eef78683f", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/3a3e8220-0819-4de3-bb25-dd8eef78683f", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.6ms)[0m  INSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)  [["nonce", "97d007e13cf6627239f30a9224776dda"], ["created_at", "2016-12-09 15:30:38.632899"], ["updated_at", "2016-12-09 15:30:38.632899"]]
+  [1m[36m (4.3ms)[0m  [1mcommit transaction[0m
+  Rendered messages/register.erb within layouts/application (28.7ms)
+Completed 200 OK in 541ms (Views: 239.6ms | ActiveRecord: 15.3ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 15:32:03 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"afde3082-d1d5-4545-81e7-998a948bc224", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/afde3082-d1d5-4545-81e7-998a948bc224", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.2ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "9d0fad5bc6a1889016b3e9f606fc6254"], ["created_at", "2016-12-09 15:32:03.244740"], ["updated_at", "2016-12-09 15:32:03.244740"]]
+  [1m[35m (4.9ms)[0m  commit transaction
+  Rendered messages/register.erb within layouts/application (28.2ms)
+Completed 200 OK in 584ms (Views: 264.1ms | ActiveRecord: 9.2ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-09 15:34:17 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 660ms (Views: 653.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 15:35:10 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"3a13f81b-14f5-492f-93cb-adf8700e7c01", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/3a13f81b-14f5-492f-93cb-adf8700e7c01", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (6.1ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "480e2f7e8ebd08f6f94d49f216ecc1ee"], ["created_at", "2016-12-09 15:35:10.813472"], ["updated_at", "2016-12-09 15:35:10.813472"]]
+  [1m[35m (6.7ms)[0m  commit transaction
+  Rendered messages/register.erb within layouts/application (58.8ms)
+Completed 200 OK in 642ms (Views: 302.5ms | ActiveRecord: 18.1ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-09 15:37:50 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 437ms (Views: 430.2ms | ActiveRecord: 0.0ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-09 15:38:04 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 705ms (Views: 695.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 15:38:14 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"bc2a54f6-c2f8-4d17-97e7-a4d5d8b00e80", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/bc2a54f6-c2f8-4d17-97e7-a4d5d8b00e80", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.6ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "34f9cf502c082d47b567f2ee7634c068"], ["created_at", "2016-12-09 15:38:15.038115"], ["updated_at", "2016-12-09 15:38:15.038115"]]
+  [1m[35m (5.1ms)[0m  commit transaction
+Completed 500 Internal Server Error in 253ms
+
+NoMethodError (undefined method `headers' for #<HTTParty::Request:0x007fdb947e8a70>):
+  app/controllers/messages_controller.rb:15:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.8ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-09 15:39:01 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 416ms (Views: 409.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 15:39:07 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"94289783-45a6-4d20-8530-51c8514c718d", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/94289783-45a6-4d20-8530-51c8514c718d", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (6.1ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "d2f54936b6bad35df0898953a644947a"], ["created_at", "2016-12-09 15:39:07.947017"], ["updated_at", "2016-12-09 15:39:07.947017"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+Completed 500 Internal Server Error in 259ms
+
+NoMethodError (undefined method `to_hash' for #<HTTParty::Request:0x007f70587cdb00>):
+  app/controllers/messages_controller.rb:15:in `register'
+
+
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/docker/.gem/ruby/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.4ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-09 15:39:27 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 438ms (Views: 431.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 15:39:29 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"b4a75f51-26fd-4d5d-b5ae-045ef79717d3", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/b4a75f51-26fd-4d5d-b5ae-045ef79717d3", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.3ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "64273572e2b7b96956ed0f964ea41185"], ["created_at", "2016-12-09 15:39:29.232594"], ["updated_at", "2016-12-09 15:39:29.232594"]]
+  [1m[35m (2.3ms)[0m  commit transaction
+  Rendered messages/register.erb within layouts/application (19.3ms)
+Completed 200 OK in 444ms (Views: 172.6ms | ActiveRecord: 14.4ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-09 15:43:10 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 505ms (Views: 498.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 15:43:14 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"a41309fa-ab31-4991-b58d-ac8ba88eadb5", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/a41309fa-ab31-4991-b58d-ac8ba88eadb5", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36mSQL (6.9ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "3192d0d4d03f35e5fd9c5e5309aedc13"], ["created_at", "2016-12-09 15:43:14.776616"], ["updated_at", "2016-12-09 15:43:14.776616"]]
+  [1m[35m (2.8ms)[0m  commit transaction
+  Rendered messages/register.erb within layouts/application (18.5ms)
+Completed 200 OK in 432ms (Views: 170.3ms | ActiveRecord: 15.6ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-09 15:58:55 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 494ms (Views: 487.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 16:00:10 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"6246d263-dd99-4b75-a882-3ea1f30f1c59", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/6246d263-dd99-4b75-a882-3ea1f30f1c59", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.6ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "2b6298a437362c0a115796c396bc5c59"], ["created_at", "2016-12-09 16:00:10.406771"], ["updated_at", "2016-12-09 16:00:10.406771"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+  Rendered messages/register.erb within layouts/application (55.3ms)
+Completed 200 OK in 653ms (Views: 292.5ms | ActiveRecord: 15.5ms)
+
+
+Started HEAD "/" for 127.0.0.1 at 2016-12-09 16:03:35 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by InfoController#home as HTML
+  Rendered info/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 840ms (Views: 833.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 16:03:38 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"9bd4f560-ba92-4c9f-a25d-1091aa867b2b", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/9bd4f560-ba92-4c9f-a25d-1091aa867b2b", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (3.7ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "2a11dd64c5d09ec171691a6493de3182"], ["created_at", "2016-12-09 16:03:38.206590"], ["updated_at", "2016-12-09 16:03:38.206590"]]
+  [1m[35m (4.3ms)[0m  commit transaction
+  Rendered messages/register.erb within layouts/application (18.3ms)
+Completed 200 OK in 504ms (Views: 167.3ms | ActiveRecord: 12.9ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 16:05:30 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"71f4ad0a-4695-4929-aea4-6ef5a16dadb2", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/71f4ad0a-4695-4929-aea4-6ef5a16dadb2", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.2ms)[0m  INSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)  [["nonce", "082faa300b1a9526ef6845b1607abacf"], ["created_at", "2016-12-09 16:05:31.025020"], ["updated_at", "2016-12-09 16:05:31.025020"]]
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+  Rendered messages/register.erb within layouts/application (28.5ms)
+Completed 200 OK in 627ms (Views: 239.2ms | ActiveRecord: 13.7ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 16:06:24 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"8a172461-f08f-4a1f-86fa-1bec1d6cd12f", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/8a172461-f08f-4a1f-86fa-1bec1d6cd12f", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.2ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "d941b0d68c430180df7ca386e08f24f9"], ["created_at", "2016-12-09 16:06:24.675043"], ["updated_at", "2016-12-09 16:06:24.675043"]]
+  [1m[35m (5.9ms)[0m  commit transaction
+  Rendered messages/register.erb within layouts/application (24.7ms)
+Completed 200 OK in 633ms (Views: 241.9ms | ActiveRecord: 10.2ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 16:07:39 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"ed7daf84-be5a-4b25-8807-52e9f1fe001a", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/ed7daf84-be5a-4b25-8807-52e9f1fe001a", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.7ms)[0m  INSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)  [["nonce", "a8003a7b1f4b869c13be232e19bc0509"], ["created_at", "2016-12-09 16:07:39.404977"], ["updated_at", "2016-12-09 16:07:39.404977"]]
+  [1m[36m (5.4ms)[0m  [1mcommit transaction[0m
+  Rendered messages/register.erb within layouts/application (27.7ms)
+Completed 200 OK in 614ms (Views: 247.7ms | ActiveRecord: 10.2ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 16:09:21 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"a55aed18-972f-4f73-938a-5eb095b30e4e", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/a55aed18-972f-4f73-938a-5eb095b30e4e", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.0ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "be082eef841c78c8f654c35f40bf5501"], ["created_at", "2016-12-09 16:09:22.014601"], ["updated_at", "2016-12-09 16:09:22.014601"]]
+  [1m[35m (5.5ms)[0m  commit transaction
+  Rendered messages/register.erb within layouts/application (27.4ms)
+Completed 200 OK in 616ms (Views: 238.9ms | ActiveRecord: 9.6ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 16:10:28 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"6a14f31d-bcf4-478b-b530-e6af4587fa9f", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/6a14f31d-bcf4-478b-b530-e6af4587fa9f", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)  [["nonce", "5442dae8e3d5546bf2c20792c0795769"], ["created_at", "2016-12-09 16:10:28.734679"], ["updated_at", "2016-12-09 16:10:28.734679"]]
+  [1m[36m (5.2ms)[0m  [1mcommit transaction[0m
+  Rendered messages/register.erb within layouts/application (28.4ms)
+Completed 200 OK in 630ms (Views: 258.4ms | ActiveRecord: 9.3ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 16:12:29 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"3103c7b6-90e3-4b98-803b-214840406806", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/3103c7b6-90e3-4b98-803b-214840406806", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.4ms)[0m  [1mINSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nonce", "9a8662f6180eecf9ccbdd7d558b35b7c"], ["created_at", "2016-12-09 16:12:30.025736"], ["updated_at", "2016-12-09 16:12:30.025736"]]
+  [1m[35m (5.4ms)[0m  commit transaction
+  Rendered messages/register.erb within layouts/application (32.5ms)
+Completed 200 OK in 692ms (Views: 253.3ms | ActiveRecord: 10.0ms)
+
+
+Started POST "/messages/register" for 172.17.0.2 at 2016-12-09 16:14:48 +0000
+Cannot render console from 172.17.0.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MessagesController#register as HTML
+  Parameters: {"lti_message_type"=>"ToolProxyRegistrationRequest", "lti_version"=>"LTI-2p0", "reg_key"=>"82847624-2749-44fe-9544-4869ed783a22", "reg_password"=>"[FILTERED]", "tc_profile_url"=>"http://canvas.docker/api/lti/courses/2/tool_consumer_profile/339b6700-e4cb-47c5-a54f-3ee0064921a9", "launch_presentation_return_url"=>"http://canvas.docker/courses/2/lti/registration_return/82847624-2749-44fe-9544-4869ed783a22", "launch_presentation_document_target"=>"iframe", "ext_tool_consumer_instance_guid"=>"0dxtgJjjFWRNT61WdQMvrlaejGgv7AynCVm3lmZ2:canvas-lms", "ext_api_domain"=>"canvas.docker"}
+Can't verify CSRF token authenticity
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (6.1ms)[0m  INSERT INTO "o_auth_nonces" ("nonce", "created_at", "updated_at") VALUES (?, ?, ?)  [["nonce", "6bead829a3da3aa72d1cd35377654cba"], ["created_at", "2016-12-09 16:14:49.116781"], ["updated_at", "2016-12-09 16:14:49.116781"]]
+  [1m[36m (3.9ms)[0m  [1mcommit transaction[0m
+  Rendered messages/register.erb within layouts/application (26.6ms)
+Completed 200 OK in 603ms (Views: 257.4ms | ActiveRecord: 10.1ms)

@@ -9,9 +9,12 @@ class MessagesController < ApplicationController
     @tool_proxy = Lti::ToolProxy.new(tc_profile: @tc_profile,
                                      security_contract: security_contract)
 
-    puts @tool_proxy.as_json
-    # TODO: Create oauth nonce and sign post request to tproxy with reg_password
-    # response = HTTParty.post(@tc_profile.tool_proxy_endpoint, req_data)
+    response = HTTParty.post(@tc_profile.tool_proxy_endpoint, tool_proxy_post)
+    puts "-----------"
+    puts response.request.to_json
+    puts "==========="
+    puts response
+    puts "==========="
   end
 
   def assignment_config?
@@ -22,11 +25,25 @@ class MessagesController < ApplicationController
   private
 
   def tool_proxy_post
-    req_data = {
-      body: [{ test: 'test' }].to_json,
+    options = {
+      consumer_secret: params[:reg_password],
+      consumer_key: params[:reg_key],
+      callback: 'about:blank',
+      oauth_nonce: OAuthNonce.create!
+    }
+
+    header = SimpleOAuth::Header.new(
+      :post,
+      @tc_profile.tool_proxy_endpoint,
+      {},
+      options
+    )
+
+    {
+      body: @tool_proxy.as_json,
       headers: {
         'Content-Type' => 'application/vnd.ims.lti.v2.toolproxy+json',
-        'oauth_consumer_key' => params['reg_key']
+        'Authorization' => header.to_s
       }
     }
   end

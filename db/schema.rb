@@ -11,11 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160819202549) do
+ActiveRecord::Schema.define(version: 20161209144832) do
 
   create_table "consumers", force: :cascade do |t|
     t.string   "lti_key"
     t.string   "lti_secret"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "o_auth_nonces", force: :cascade do |t|
+    t.string   "nonce",      null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
