@@ -11,8 +11,6 @@ class MessagesController < ApplicationController
 
     response = HTTParty.post(@tc_profile.tool_proxy_endpoint, tool_proxy_post)
     puts "-----------"
-    puts response.request.to_json
-    puts "==========="
     puts response
     puts "==========="
   end
@@ -25,6 +23,10 @@ class MessagesController < ApplicationController
   private
 
   def tool_proxy_post
+    puts "===="
+    puts @tool_proxy.as_json
+    puts "===="
+
     options = {
       consumer_secret: params[:reg_password],
       consumer_key: params[:reg_key],
@@ -55,14 +57,14 @@ class MessagesController < ApplicationController
 
   def security_contract
     {
-      tp_half_shared_secret: SecureRandom.hex(128),
-      tool_service: [
-        {
-          '@type' => 'RestService',
-          service: @tc_profile.tool_proxy_endpoint_id,
-          action: ['POST']
-        }
-      ]
+      tp_half_shared_secret: SecureRandom.hex(64),
+      # tool_service: [
+      #   {
+      #     '@type' => 'RestService',
+      #     service: @tc_profile.tool_proxy_endpoint_id,
+      #     action: ['POST']
+      #   }
+      # ]
     }
   end
 

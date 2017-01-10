@@ -5,55 +5,48 @@
       "product_info":{
          "product_version":"0.1",
          "product_family":{
-            "code":"canvas",
+            "code":"pagdetect",
             "vendor":{
-               "code":"https:\/\/instructure.com",
+               "code":"https:\/\/westonkd.github.io/plag-detec",
                "vendor_name":{
                   "default_value":"Instructure",
-                  "key":"vendor.name"
-               },
-               "timestamp":"2008-03-27T06:00:00Z"
+                  "key":"tool.vendor.name"
+               }
             }
          },
          "product_name":{
-            "default_value":"Plag Detection",
-            "key":"product.name"
-         }
-      },
-      "service_owner":{
-         "description":{
-            "default_value":"Instructure",
-            "key":"service_owner.description"
-         },
-         "service_owner_name":{
-            "default_value":"Instructure",
-            "key":"service_owner.name"
+            "default_value":"Plag Detect",
+            "key":"tool.name"
          }
       }
    },
-   "service_offered":[],
    "base_url_choice":[
       {
-         "selector":"DefaultSelector",
+         "selector":{
+            "applies_to":[
+               "MessageHandler"
+            ]
+         },
          "default_base_url":"http://my-lti2.docker/",
          "secure_base_url":"http://my-lti2.docker/"
       }
    ],
-   "message":[
+   "resource_handler":[
       {
-         "message_type":"basic-lti-launch-request",
-         "path":"messages/blti",
-         "parameter":[
+         "resource_type":{
+            "code":"plagdetect"
+         },
+         "resource_name":{
+            "default_value":"Plag Detect",
+            "key":"default.resource.name"
+         },
+         "message":[
             {
-               "name":"given_name",
-               "variable":"$Person.name.given"
-            },
-            {
-               "name":"context_id",
-               "variable":"$Context.id"
+               "message_type":"basic-lti-launch-request",
+               "path":"messages/blti",
+               "enabled_capability": ["Canvas.placements.courseNavigation"]
             }
          ]
       }
-   ],
-   "resource_handler":[]
+   ]
 }

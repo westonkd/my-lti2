@@ -4,6 +4,7 @@ module Lti
   class ToolProfile
     attr_reader :url, :data, :placements
     def initialize(url)
+      puts "Fetching TCP from #{url}"
       @url = URI.parse(url)
       @data = request_tp.with_indifferent_access
       @placements = process_placements
