@@ -11,11 +11,12 @@ module Lti
       {
         '@context' => 'http://purl.imsglobal.org/ctx/lti/v2/ToolProxy',
         '@type' => 'ToolProxy',
+        'tool_proxy_guid': '584a140c-01a8-44e8-aa84-0d654d284bd5',
         lti_version: 'LTI-2p1',
-        tool_consumer_profile: @tc_profile.data,
+        tool_consumer_profile: @tc_profile.url.to_s,
         tool_profile: tool_profile,
-        custom: @custom,
-        security_contract: @security_contract
+        security_contract: @security_contract,
+        enabled_capability: [ "OAuth.splitSecret" ]
       }.to_json
     end
 
