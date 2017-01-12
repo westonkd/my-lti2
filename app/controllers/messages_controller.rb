@@ -23,13 +23,9 @@ class MessagesController < ApplicationController
   private
 
   def tool_proxy_post
-    puts "===="
-    puts @tool_proxy.as_json
-    puts "===="
-
     options = {
-      consumer_secret: params[:reg_password],
-      consumer_key: params[:reg_key],
+      consumer_secret: "RaqHh8gHJTq9dUWt6W6wkpSyiC8ColOJGSJtWKCyTAZ01VmArqIQAlopWmlIQxEI",
+      consumer_key: 10000000000002,
       callback: 'about:blank',
       oauth_nonce: OAuthNonce.create!
     }

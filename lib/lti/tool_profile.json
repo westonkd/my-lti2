@@ -43,18 +43,7 @@
          "message":[
             {
                "message_type":"basic-lti-launch-request",
-               "path":"messages/blti",
-               "enabled_capability": ["Canvas.placements.courseNavigation"],
-               "parameter":[
-                  {
-                     "name":"given_name",
-                     "variable":"$Person.name.given"
-                  },
-                  {
-                     "name":"context_id",
-                     "variable":"$Context.id"
-                  }
-               ]
+               "path":"messages/blti"
             }
          ]
       }
