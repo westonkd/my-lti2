@@ -18,6 +18,7 @@ module Lti
     end
 
     def tool_proxy_endpoint
+      return nil unless @data
       tp_services = @data[:service_offered].select { |s| s['@id'].include? 'ToolProxy.collection' }
       return URI.parse(tp_services.first['endpoint']) unless tp_services.blank?
     end
@@ -30,8 +31,37 @@ module Lti
     private
 
     def request_tp
-      response = HTTParty.get(@url)
+      response = HTTParty.get(@url, tcp_authorized_get)
       JSON.parse(response.body) || {}
+    end
+
+    def tcp_authorized_get
+      options = {
+        consumer_secret: "RaqHh8gHJTq9dUWt6W6wkpSyiC8ColOJGSJtWKCyTAZ01VmArqIQAlopWmlIQxEI",
+        consumer_key: 10000000000002,
+        callback: 'about:blank',
+        oauth_nonce: OAuthNonce.create!
+      }
+
+      query = {
+        consumer_key: 10000000000002
+      }
+
+      header = SimpleOAuth::Header.new(
+        :get,
+        "#{@url}?consumer_key=#{query[:consumer_key]}",
+        {},
+        options
+      )
+
+      # puts header.send(:signature_base)
+
+      {
+        query: query,
+        headers: {
+          'Authorization' => header.to_s
+        }
+      }
     end
 
     def process_placements
